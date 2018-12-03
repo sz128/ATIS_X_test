@@ -9,8 +9,8 @@ A modified version of the ATIS test set, which is used in paper of "[Concept Tra
  * valid.DIGIT : validation set with DIGIT tokens;
  * test.raw : test set with word features;
  * test.DIGIT : test set with DIGIT tokens;
- * test_X.raw : a modified version of the ATIS test set (ATIS_X_test).
- * test_X.DIGIT : with DIGIT tokens.
+ * test_X.raw : ATIS_X_test with word features.
+ * test_X.DIGIT : ATIS_X_test with DIGIT tokens.
  * The split of train and valid followed 'split 3' of [https://github.com/mesnilgr/is13]. The dataset with DIGIT tokens is recommended since it always gives better performance.
 
 ## How to generate test_X files
