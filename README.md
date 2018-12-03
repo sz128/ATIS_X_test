@@ -2,7 +2,7 @@
 # ATIS_X_test
 A modified version of the ATIS test set, which is used in paper of "[Concept Transfer Learning for Adaptive Language Understanding](http://aclweb.org/anthology/W18-5047)". It can be exploited to evaluate the generalization capability of slot filling and intent detection models.
 
-## Test files
+## ATIS files
  * train.raw : training set with word features;
  * train.DIGIT : as what [http://deeplearning.net/tutorial/rnnslu.html] did, we also converted sequences of numbers with the string DIGIT i.e. 1984 is converted to DIGITDIGITDIGITDIGIT;
  * valid.raw : validation set with word features;
