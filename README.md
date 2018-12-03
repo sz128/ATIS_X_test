@@ -14,7 +14,7 @@ A modified version of the ATIS test set, which is used in paper of "[Concept Tra
  * The split of train and valid followed 'split 3' of [https://github.com/mesnilgr/is13]. The dataset with DIGIT tokens is recommended since it always gives better performance.
 
 ## How to generate test_X files
- * python 2.7
+ * python2.7
  * python generate_unmatched_test_set.py test.raw test_X.raw slot_values_train.json
  * python preprocess_on_rawdata.py test_X.raw > test_X.DIGIT
 
